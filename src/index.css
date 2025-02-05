@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#root {
+  text-align: center;
+}
+
+.dark {
+  background-color: #1a202c;
+  color: #a0aec0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+@media (min-width: 768px) {
+  .flex-col {
+    flex-direction: column;
+  }
+}
