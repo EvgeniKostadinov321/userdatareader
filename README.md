@@ -20,7 +20,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/user-data-app.git
+   git clone https://github.com/EvgeniKostadinov321/userdatareader
    ```
 2. Navigate to the project directory:
    ```sh
@@ -37,7 +37,7 @@
    ```sh
    npm run dev
    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+2. Open your browser and navigate to `http://localhost:{port}`.
 
 ## API
 
